@@ -57,12 +57,10 @@ sudo python setup.py install
 cd
 mkdir ~/BMP180Code
 cd ~/BMP180Code 
-git clone https://github.com/adafruit/Adafruit_Python_BMP.git
-cd Adafruit_Python_BMP
-sudo python setup.py install
-cd 
 sudo pip3 install --upgrade setuptools
 pip3 install adafruit-blinka
+sudo pip3 install adafruit-circuitpython-tsl2561
+sudo pip3 install adafruit-circuitpython-si7021
 ```
 
 Then you can just load python3 code from [this link](https://github.com/lauriflytstrom/Pastill) and then you can run it with:
